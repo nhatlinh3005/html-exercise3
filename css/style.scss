@@ -1,0 +1,136 @@
+body {
+  width: 1263px;
+  margin: 0 auto;
+  font: {
+    family: 'Times New Roman', Times, serif;
+    size: 13px;
+  }
+  color: #595959;
+  background: #121214 url("../images/bg_header.png") no-repeat center top;
+}
+
+.container, .menu {margin-left: 69px}
+
+.container { width: 693px;}
+
+.menu {
+  margin-bottom: 62px;
+}
+
+.content--left, .content--right {
+  float: left;
+  display: block;
+}
+
+.clearfix {clear: both;}
+
+a {
+  color: #595959;
+}
+
+.menu {
+  margin-top: 195px;
+  padding-left: 0px;
+  li {
+    text-align: center;
+    display: inline-block;
+  }
+  li:nth-child(n+2) {
+    margin-left: 3px;
+  }
+  img {
+    display: block;
+    max-width: 137px;
+    max-height: 84px;
+  }
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+
+
+.content--left {
+  box-sizing: border-box;
+  width: 235px;
+  padding-top: 43px; 
+  padding-bottom: 23px;
+  padding-left: 21px;
+  background: #1f1f1f;
+  &--top {
+    width: 177px;
+    margin-top: 0px;
+    padding-top: 28px;
+    padding-bottom: 73px;
+    padding-left: 11px;
+    border-top: 1px solid #7e7e7e;
+    border-bottom: 1px solid #2c2c2c;
+  }
+}
+
+.content--left--bottom {
+  padding: 0px;
+  margin-left: 20px;
+  margin-top: 29px;
+  li {
+    list-style-type: none;
+    margin-bottom: 7px;
+    i {
+      margin-right: 8px;
+    }
+  }
+}
+
+
+.content--right {
+  width: 693px - 235px - 38px;
+  margin-left: 38px;
+  p {
+    margin-top: 12px;
+    margin-bottom: 15px;
+  }
+}
+
+.content--right__item {
+  margin-top: 42px;
+  padding-left: 14px;
+  padding-right: 36px;
+  .pic_content {
+    margin-left: -14px;
+  }
+  p {
+    font-size: 11px;
+  }
+}
+
+button {
+  margin-top: 18px;
+  display: block;
+  width: 114px;
+  height: 19px;
+  border: none;
+  background-color: #2c2c2c; 
+}
+
+.launch-website {
+  padding-top: 16px;
+  font-size: 11px;
+  border-top: 1px dotted #353439;
+  color: #fff;
+  img {
+    margin-bottom: -2px;
+  }
+}
+
+.footer {
+  margin-top: 69px;
+  margin-right: 36px;
+  font-size: 10px;
+  border-top: 1px dotted #353439;
+  p {
+    margin-top: 24px;
+    margin-bottom: 63px;
+  }
+}
