@@ -25,8 +25,13 @@ body {
 a {
   color: #595959; }
 
+.bg__header {
+  position: relative;
+  top: 81px;
+  left: 69px; }
+
 .menu {
-  margin-top: 195px;
+  margin-top: 120px;
   padding-left: 0px; }
   .menu li {
     text-align: center;
@@ -45,8 +50,8 @@ a {
 .content--left {
   box-sizing: border-box;
   width: 235px;
-  padding-top: 43px;
-  padding-bottom: 23px;
+  padding-top: 39px;
+  padding-bottom: 16px;
   padding-left: 21px;
   background: #1f1f1f; }
   .content--left--top {
@@ -83,6 +88,8 @@ a {
     margin-left: -14px; }
   .content--right__item p {
     font-size: 11px; }
+  .content--right__item:last-child {
+    margin-top: 37px; }
 
 button {
   margin-top: 18px;
@@ -93,12 +100,15 @@ button {
   background-color: #2c2c2c; }
 
 .launch-website {
-  padding-top: 16px;
+  padding-top: 14px;
   font-size: 11px;
   border-top: 1px dotted #353439;
   color: #fff; }
   .launch-website img {
     margin-bottom: -2px; }
+  .launch-website a {
+    text-decoration: none;
+    color: white; }
 
 .footer {
   margin-top: 69px;
