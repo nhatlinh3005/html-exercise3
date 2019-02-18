@@ -25,8 +25,13 @@ body {
 a {
   color: #595959; }
 
+.bg__header {
+  position: relative;
+  top: 81px;
+  left: 69px; }
+
 .menu {
-  margin-top: 195px;
+  margin-top: 120px;
   padding-left: 0px; }
   .menu li {
     text-align: center;
