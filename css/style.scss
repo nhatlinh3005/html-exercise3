@@ -61,8 +61,8 @@ a {
 .content--left {
   box-sizing: border-box;
   width: 235px;
-  padding-top: 43px; 
-  padding-bottom: 23px;
+  padding-top: 39px; 
+  padding-bottom: 16px;
   padding-left: 21px;
   background: #1f1f1f;
   &--top {
@@ -109,6 +109,7 @@ a {
   p {
     font-size: 11px;
   }
+  &:last-child {margin-top: 37px;}
 }
 
 button {
@@ -121,12 +122,16 @@ button {
 }
 
 .launch-website {
-  padding-top: 16px;
+  padding-top: 14px;
   font-size: 11px;
   border-top: 1px dotted #353439;
   color: #fff;
   img {
     margin-bottom: -2px;
+  }
+  a {
+    text-decoration: none;
+    color: white;
   }
 }
 
