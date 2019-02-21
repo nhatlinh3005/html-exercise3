@@ -103,12 +103,14 @@ button {
   padding-top: 14px;
   font-size: 11px;
   border-top: 1px dotted #353439;
-  color: #fff; }
-  .launch-website img {
-    margin-bottom: -2px; }
-  .launch-website a {
-    text-decoration: none;
-    color: white; }
+  color: #fff;
+  text-decoration: none;
+  color: white; }
+  .launch-website::before {
+    content: url("../images/btn_launch_website.png");
+    position: relative;
+    bottom: -2px;
+    margin-right: 6px; }
 
 .footer {
   margin-top: 69px;
